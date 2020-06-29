@@ -24,7 +24,7 @@ global $access_token,$collector_id,$notificationJSON,$country_id;
     
 function curl_call($method,$url,$json){
 	$integrator_id_test="";
-	$method = strtoupper($method);
+    $method = strtoupper($method);
 	$headers = array("Content-Type: application/json","X-integrator-id: $integrator_id_test");
     $ch = curl_init();
     if($method=="POST"){$post=1;}else{$post=0;};
