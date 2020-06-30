@@ -76,7 +76,7 @@ $(document).ready(function() {
 
                         var orderJSON = {
                             "external_reference": external_reference,
-                            "notification_url": "https://hookb.in/aB3keVO7QQS1oobLKoYB",
+                            "notification_url": "http://campus-ie.com.ar/notifications/ipn.php",
                             "items": items
                         };
 
