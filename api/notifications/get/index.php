@@ -11,7 +11,7 @@ global $access_token,$collector_id,$notificationJSON;
 
 $lastResource = file_get_contents('../notifications.txt');
 
-$url= "https://hookb.in/aB3keVO7QQS1oobLKoYB";
+$url= "https://api.mercadolibre.com/merchant_orders/1556148254&access_token=$access_token";
 
 // REVISAR AQUÍ:
 // Agrega la $url necesaria para revisar el estado del pago en base al recurso recibido de la notificación
